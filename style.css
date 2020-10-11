@@ -1,8 +1,7 @@
 body,html { 
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  background: url(http://wallpaperswide.com/download/earth_4k-wallpaper-2880x1620.jpg) no-repeat ; 
+	width: auto;
+  height: device-height;
+  background: url(http://wallpaperswide.com/download/earth_4k-wallpaper-2880x1620.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,35 +11,36 @@ body,html {
 
 
 }
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
 
 
 
-.contact {
+.contact{
+	
+	margin: 10px;
 	float: right;
-	height: 100%;
-	width: 100%;
 	justify-content: right;
-	}
+	height: 2.3%;
+	width: 2.3%;
 
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
 
 img{
     height: 200%;
 	width: 100%;
 	margin: 3px;
+	
 	transition: all 0.5s;
 	filter: gray;
     -webkit-filter: grayscale(1);
-	float: right;
 }
 img:hover{
 	transform: scale(1.3);
 	filter: none;
     -webkit-filter: grayscale(0);
-	float: right;
 	
 
 }	
@@ -84,6 +84,6 @@ hr{
 	background-color: white ;
 	border-color: #8888;
 	color: black;
-	transform: scale(1.2);
+	transform: scale(1.1);
 
 }
