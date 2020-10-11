@@ -21,11 +21,6 @@ body,html {
 	justify-content: right;
 	height: 2.3%;
 	width: 2.3%;
-
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 	}
 
 img{
