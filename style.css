@@ -20,16 +20,12 @@ body,html {
 
 
 .contact {
-	
-	margin: 1px;
 	float: right;
-	height: 5%;
-	width: 5%;
+	height: 100%;
+	width: 100%;
 	justify-content: right;
 	}
-a {
-	float: right;
-}
+
 
 img{
     height: 200%;
