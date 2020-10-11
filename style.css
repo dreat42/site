@@ -19,7 +19,7 @@ body,html {
 
 
 
-.ifb {
+.contact {
 	
 	margin: 1px;
 	float: right;
@@ -28,8 +28,8 @@ body,html {
 	}
 
 img{
-    height: 50%;
-	width: 50%;
+    height: 200%;
+	width: 100%;
 	margin: 3px;
 	transition: all 0.5s;
 	filter: gray;
