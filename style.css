@@ -26,7 +26,6 @@ img{
     height: 200%;
 	width: 100%;
 	margin: 3px;
-	display: block;
 	transition: all 0.5s;
 	filter: gray;
     -webkit-filter: grayscale(1);
