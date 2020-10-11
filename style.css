@@ -17,7 +17,7 @@ body,html {
 .contact{
 	
 	margin: 10px;
-	justify-content: right;
+	float: right;
 	height: 2.3%;
 	width: 2.3%;
 	}
