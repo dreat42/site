@@ -25,6 +25,7 @@ body,html {
 	float: right;
 	height: 2.2%;
 	width: 2.2%;
+	justify-content: right;
 	}
 a {
 	float: right;
