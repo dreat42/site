@@ -1,6 +1,7 @@
 body,html { 
-	width: device-width ;
-  height: device-height;
+	width: auto ;
+  height: auto;
+	max-width: 100%;
   background: url(http://wallpaperswide.com/download/earth_4k-wallpaper-2880x1620.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,6 +11,10 @@ body,html {
   text-shadow: 0px 1px, 1px 0px, 1px 1px;
 
 
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
 
