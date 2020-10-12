@@ -22,6 +22,9 @@ body,html {
 	
 
 }
+h1{
+	font-size: 400%;
+}
 .space{
 height: 10%;
 }
