@@ -20,6 +20,7 @@ body,html {
 .box1{
 	padding-top: 6%;
 	
+	
 
 }
 h1{
@@ -43,6 +44,7 @@ hr{
 	
 	display: block;
 	margin-left: 7%;
+	
 	
 
 
@@ -85,4 +87,32 @@ img:hover{
     -webkit-filter: grayscale(0);
     }
 
+@media only screen and (min-width: 720px){
+.box1{
 
+
+	text-align:center;
+	padding-left: 10%;
+
+
+    
+}
+hr{
+	margin-left: 47.4%;
+
+
+	width:5%;
+	
+
+
+
+}
+h1{
+	font-size: 600%;
+}
+
+.space{
+height: 20%;
+}
+
+}
